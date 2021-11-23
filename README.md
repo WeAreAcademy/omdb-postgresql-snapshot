@@ -42,18 +42,4 @@ List of other sample databases for PostgreSQL: https://wiki.postgresql.org/wiki/
 
 Building the omdb Database
 --------------------------
-
-Download the files from omdb.org:
-```
-./download
-```
-
-Import into the omdb PostgreSQL database:
-```
-./import
-```
-
-Create `omdb.dump` database export file:
-```
-pg_dump -Fc -f omdb.dump omdb
-```
+Follow the instructions in notion.
